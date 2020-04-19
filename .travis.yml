@@ -1,0 +1,21 @@
+language: cpp
+sudo: required
+dist: trusty
+compiler: 
+- g++
+os:
+- linux
+
+script: 
+  - sudo apt-get update
+  - make
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-multilib
+    - gcc-multilib
+    - binutils
+

@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{21570311-5f9c-44db-bb3f-ac15c5ef5083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{f3223ef8-e473-4b92-82ee-e8cdc3839fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{56666e83-7732-4d69-8d35-99aec252b21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{c2eedb14-1bac-4d97-837f-0cec9c99a27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{8cf06a15-8b1a-4cb9-9257-fcbe3679ef20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\INIReader">
+      <UniqueIdentifier>{28c21ed1-aa87-4e78-8373-b998735b4acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{e4c219a3-67cb-4d6a-928b-d67c52fed246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\RPC">
+      <UniqueIdentifier>{be7804ff-34c1-4493-b533-7f8bce17bf34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{78638f73-95e4-461f-b3f7-8b30de80ff3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{6b16b243-c71f-4f6b-9e0e-912fdaeb153b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{636df4ea-0645-474e-a5ef-c664807ace8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Functions">
+      <UniqueIdentifier>{f66f59b2-1152-479c-9b64-efb22b85565f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Callbacks">
+      <UniqueIdentifier>{37585daf-a858-441e-8d04-da22a9a4edb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\SyncVars">
+      <UniqueIdentifier>{e30211b6-1ae4-4bda-b04a-3b0a5566e8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Master">
+      <UniqueIdentifier>{47a25d01-f3c1-4605-a2b4-d1957d96d680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Objects">
+      <UniqueIdentifier>{df8882c3-3ed4-42a5-a2d1-b82acfc500b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Joaat">
+      <UniqueIdentifier>{a551e45c-76ca-45b3-9e38-eec3b4497d5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.cpp">
+      <Filter>Include\INIReader</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>Include\INIReader</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Callback_Network.cpp">
+      <Filter>API\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Vehicle.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkSync.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RPCEntity.cpp">
+      <Filter>Network\RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="RPCManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Callback_Checkpoint.cpp">
+      <Filter>API\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="CVector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Callback_Cef.cpp">
+      <Filter>API\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="RPCPlayer.cpp">
+      <Filter>Network\RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Callback_Player.cpp">
+      <Filter>API\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="RPCVehicle.cpp">
+      <Filter>Network\RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="General.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Callback_Entity.cpp">
+      <Filter>API\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelCache.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlip.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CCheckpoint.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CVehicle.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CPickup.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CNPC.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CWorld.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CAPI.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\SyncManager.cpp">
+      <Filter>Network\SyncVars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\SyncValue.cpp">
+      <Filter>Network\SyncVars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\ShapedUtility.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\VehicleSyncManager.cpp">
+      <Filter>Network\SyncVars</Filter>
+    </ClCompile>
+    <ClCompile Include="Master.cpp">
+      <Filter>Network\Master</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Log.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Entity.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Player.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Object.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_NPC.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Camera.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_CEF.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Checkpoint.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Pickup.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Server.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Visual.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_World.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Blip.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Joaat.cpp">
+      <Filter>API\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Joaat.cpp">
+      <Filter>Include\Joaat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ini.h">
+      <Filter>Include\INIReader</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>Include\INIReader</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Callback_Network.h">
+      <Filter>API\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Vehicle.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkSync.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RPCManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RPCEntity.h">
+      <Filter>Network\RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Callback_Checkpoint.h">
+      <Filter>API\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Callback_Cef.h">
+      <Filter>API\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="RPCPlayer.h">
+      <Filter>Network\RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Callback_Player.h">
+      <Filter>API\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="RPCVehicle.h">
+      <Filter>Network\RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="General.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Callback_Entity.h">
+      <Filter>API\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelCache.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlip.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CCheckpoint.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CVehicle.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CPickup.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CNPC.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorld.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CAPI.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="CVitals.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Master.h">
+      <Filter>Network\Master</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Log.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Entity.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Player.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Objects.h">
+      <Filter>API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Object.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_NPC.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Camera.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_CEF.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Checkpoint.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Pickup.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Server.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Visual.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_World.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Blip.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Joaat.h">
+      <Filter>Include\Joaat</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Joaat.h">
+      <Filter>API\Functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon2.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GrandM.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
